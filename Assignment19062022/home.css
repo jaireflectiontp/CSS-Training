@@ -1,0 +1,16 @@
+header {
+    background-color: aqua;
+    height: 100px;
+}
+nav {
+    background-color: burlywood;
+    height: 50px;
+}
+main{
+    background-color: darkkhaki;
+    height: 500px;
+}
+footer {
+    background-color: lightgrey;
+    height: 100px;
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+table {
+    background-color: white;
+    color: black;
+}
+
+th {
+    background-color:lightskyblue;
+    color: black;
+}
+
+.done {
+    background-color:greenyellow;
+}
+
+.notdone {
+    background-color:firebrick;
+}
+
+.css {
+    background-color:navajowhite;
+}

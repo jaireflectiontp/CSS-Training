@@ -1,0 +1,17 @@
+body {
+    background-color:silver;
+}
+.header {
+    background-color: black;
+    height: 50px;
+}
+.logo {
+    float: left;
+}
+.search {
+float: right;
+}
+.fp .product {
+float: left ;
+width: 25% ;
+}

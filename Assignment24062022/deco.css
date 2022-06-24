@@ -22,6 +22,9 @@
     float: right;
     border: 2px solid black;
 }
+.search:hover{
+    background-color: aquamarine;
+}
 
 .nav {
     padding: 5px;

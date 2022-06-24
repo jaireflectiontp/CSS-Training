@@ -1,5 +1,5 @@
 .body {
-    background-color:lightgoldenrodyellow;
+    background-color: mintcream;
 }
 
 .header {
@@ -53,9 +53,8 @@
 
 .banner {
     background-color: bisque;
-    width: 850px;
-    height: 300px;
-    overflow: hidden;
+    width: 100%;
+overflow: hidden;
 }
 
 .right-container {

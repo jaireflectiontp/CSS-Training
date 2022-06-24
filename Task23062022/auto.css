@@ -1,0 +1,64 @@
+.body{
+background-color:ghostwhite;
+}
+.header{
+    background-color: black;
+    color: aliceblue;
+    overflow: hidden;
+    padding: 2px;
+    border: solid grey;
+}
+
+.logo{
+    background-color:aliceblue;
+    float: left;
+    padding: 17px;
+}
+
+.search{
+    float: left;
+    padding: 17px;
+}
+.text{
+    float: right;
+    margin: 0px;
+    border: 2px solid white;
+}
+.nav{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 5px;
+    border: 2px;
+    margin: 5px;
+    overflow: hidden;    
+}
+.link{
+    padding: 10px;
+    float: left;
+    display: inline-block;
+    border: 2px solid white;
+    margin: 3px;
+}
+.main{
+    padding: 20px;
+}
+.note{
+    background-color: coral;
+}
+.container-1{
+    width: 20%;
+    background-color: antiquewhite;
+    border: 1px dotted black;
+    margin: 2px;
+    padding: 3px;
+}
+.container-2{
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    }
+.footer{
+    background-color: darkgray;
+    padding: 8px;
+    text-align: center;
+}

@@ -1,0 +1,86 @@
+.body {
+    background-color: aliceblue;
+}
+
+.header {
+    padding: 15px;
+    background-color: rgb(115, 193, 167);
+    overflow: hidden;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 80%;
+    text-align: center;
+}
+
+.search {
+
+    width: 10%;
+    float: right;
+    border: 2px solid black;
+}
+
+.nav {
+    padding: 5px;
+    background-color: rgb(209, 153, 113);
+    text-align: center;
+}
+
+.link {
+    padding: 15px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 20%;
+}
+
+.main {
+    padding: 15px;
+    background-color: rgb(201, 204, 120);
+    overflow: hidden;
+}
+
+.heading {
+    text-align: center;
+    background-color: slategrey;
+    width: 50%;
+}
+
+.row-all {
+    margin: 15px;
+    overflow: hidden;
+}
+
+.col {
+    float: left;
+    border: 1px solid black;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.row-1 .col-1 {
+    width: 50%;
+}
+
+.row-1 .col-2 {
+    width: 50%;
+}
+
+.row-2 .col-1 {
+    width: 33.33%;
+}
+
+.row-2 .col-2 {
+    width: 33.33%;
+}
+
+.row-2 .col-3 {
+    width: 33.33%;
+}
+
+.footer {
+    padding: 15px;
+    background-color: rgb(124, 210, 210);
+}

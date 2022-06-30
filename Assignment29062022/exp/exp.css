@@ -1,0 +1,19 @@
+.left{
+    background-color: burlywood;
+    float: left;
+    width: 40%;
+}
+.right{
+    position: fixed;
+    background-color: aqua;
+    float: right;
+    width: 60%;
+    height: 500px;
+
+}
+.in{
+    background-color: brown;
+    position: relative;
+    top: 50px;
+    
+}

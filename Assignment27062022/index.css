@@ -1,0 +1,135 @@
+.bord {
+    color: rgb(91, 92, 92);
+}
+
+.body {
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(88, 89, 90);
+    padding: 15px;
+}
+
+.logo {
+    color: aliceblue;
+    font-size: 60px;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+}
+
+.text-link {
+    display: inline-block;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.link {
+    float: right;
+    width: 70%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(50, 51, 52);
+    text-align: center;
+}
+
+.tool {
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.img {
+    width: 100%;
+}
+
+.main {
+    margin: 10px;
+}
+
+.col {
+    margin: 3px;
+    float: left;
+    width: 24%;
+}
+
+.row {
+    overflow: hidden;
+    padding: 5px;
+}
+
+.column-1 {
+    float: left;
+    width: 32%;
+    margin: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.row-1 {
+    overflow: hidden;
+    padding: 5px;
+}
+
+.img-1 {
+    width: 100%;
+}
+
+.more {
+    float: right;
+}
+
+.letter {
+    color: rgb(210, 166, 56);
+}
+
+.h4 {
+    margin: 2px;
+    padding: 3px;
+    float: right;
+}
+
+.main-row-2 .col-1 {
+    float: left;
+    width: 75%;
+    padding: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.left {
+    float: left;
+    width: 30%;
+    padding: 3px;
+}
+
+.right {
+    float: left;
+    width: 60%;
+    padding: 5px;
+    margin: 5px;
+    padding-top: 0px;
+}
+
+.rows {
+    overflow: hidden;
+}
+
+.col-2 {
+    float: right;
+    width: 20%;
+}
+
+.botm-bord {
+    border-bottom: 1px dotted rgb(142, 141, 141);
+    padding: 5px;
+}
+
+.footer {
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(51, 48, 48);
+    color: aliceblue;
+}

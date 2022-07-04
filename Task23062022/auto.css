@@ -126,3 +126,9 @@
     padding: 15px;
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+    .row-1, .row-2{
+        width: 100%;
+    }
+}

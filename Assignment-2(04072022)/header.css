@@ -1,0 +1,131 @@
+.body {
+    margin: 0;
+}
+
+.header {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+}
+
+.top-header {
+    background-color: #F2F2F2;
+    margin: 0px;
+    padding: 0px 95px;
+    overflow: hidden;
+}
+
+.site {
+    float: left;
+    width: 15%;
+    color: grey;
+    margin-top: 10px;
+}
+
+.top-nav {
+    float: right;
+    width: 85%;
+    text-align: right;
+}
+
+.img {
+    width: 17px;
+}
+
+.img-g {
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.top_link-text {
+    color: grey;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.inner-header {
+    background-color: snow;
+    margin: 0px;
+    padding: 15px 95px;
+    overflow: hidden;
+}
+
+.bottom_link-text {
+    color: #00095B;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.top-nav_list,
+.bottom-nav_list {
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav_link,
+.bottom-nav_link {
+    display: inline-block;
+}
+
+.top-nav_link {
+    padding: 0px 0px 0px 30px;
+}
+
+.logo {
+    float: left;
+    width: 15%;
+    margin-top: 2px;
+}
+
+.bottom-nav {
+    float: right;
+    width: 85%;
+    text-align: right;
+}
+
+.top-nav {
+    padding: 10px 0px 10px 0px;
+}
+
+.img-1 {
+    width: 35px;
+}
+
+.bottom-nav_link {
+    padding: 0px 0px 0px 30px;
+}
+
+.message {
+    background-color: #DA7029;
+    padding: 10px 40px;
+    overflow: hidden;
+}
+
+.i {
+    float: left;
+    width: 1%;
+    border-radius: 100%;
+    color: #DA7029;
+    background-color: white;
+    text-align: center;
+    font-family: auto;
+    font-size: small;
+    padding: 4px;
+    margin-right: 11px;
+}
+
+.text {
+    float: left;
+    width: 70%;
+}
+
+.close {
+    float: right;
+    width: 10%;
+    text-align: right;
+}
+
+.color {
+    color: white;
+}
+

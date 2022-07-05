@@ -116,11 +116,32 @@
     float: right;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:1024px){
+
+    .message{
+        font-size: small;
+    }
+    .header{
+        font-size: small;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    .bottom-nav{
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .top-nav {
         display: none;
     }
 
+    .header{
+        font-size: small;
+    }
     .site {
         width: 100%;
     }
@@ -152,4 +173,8 @@
     .borderno {
         border: none;
     }
+    .message{
+        font-size: smaller;
+    }
 }
+

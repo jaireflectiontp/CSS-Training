@@ -149,7 +149,7 @@
         right: 0px;
     }
 
-    border: none;
-
-    .nobordn {}
+    .nobordn {
+        border: none;
+    }
 }

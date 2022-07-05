@@ -1,0 +1,142 @@
+.header{
+    width: 100%;
+    background-color: blueviolet;
+    padding: 15px;
+}
+.main{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+    color: gray;
+}
+.main-row-1{
+    height: 300px;
+    overflow: hidden;
+  
+}
+.row-1-col-1{
+    background-color: rgb(212, 207, 207);
+    float: left;
+    max-width: 365px;
+ 
+    position: relative;
+    height: 300px;
+}
+.readlink{
+    text-align: right;
+    margin-bottom: 3px;
+}
+.heading{
+    font-size: 50px;
+    font-weight: normal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.para{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+.read-text-1{
+    color: rgb(255, 162, 0);
+    text-decoration: none;
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+}
+.row-1-col-2{
+    float: right;
+   max-width: 630px;
+   width: 100%;
+    height: 300px;
+    background-color: rgb(46, 45, 45);
+    position: relative;
+}
+.col-2-text{
+    position: absolute;
+    top: 130px;
+    left: 250px;
+    font-size: xx-large;
+}
+.main-row-2{
+  margin-top: 30px;
+    overflow: hidden;
+}
+.row-2-col{
+    float: left;
+    width: 33.33%;
+    height: 300px;
+    position: relative;
+}
+.row-2-heading{
+    margin-left: 10px;
+}
+.bord-box{
+    border: 1px solid grey;
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    top: 65px;
+    left: 10px;
+}
+.box{
+    color: aliceblue;
+    width: 80px;
+    height: 80px;
+    background-color: grey;
+}
+.box-text{
+    position: absolute;
+    top: 30px;
+    left: 12px;
+}
+.paragraph{
+    margin-left: 100px;
+}
+.main-row-3{
+    margin-top: 50px;
+    overflow: hidden;
+}
+.row-3-col{
+    float: left;
+    width: 25%;
+    position: relative;
+}
+.row-3-heading{
+    font-size: 17px;
+    margin-left: 15px;
+}
+.fig{
+    background-color: grey;
+    position:relative;
+    width: 215x;
+    height: 100px;
+}
+.fig-size{
+    color: aliceblue;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+.bord{
+    border: 1px solid rgb(108, 108, 108);
+    width: 217px;
+    height: 102px;
+    margin: auto;
+}
+.paragrap{
+    margin-left: 15px;
+}
+.read-text{
+    color: rgb(255, 162, 0);
+    text-decoration: none;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

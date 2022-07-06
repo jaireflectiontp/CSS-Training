@@ -1,0 +1,302 @@
+.body {
+    margin: 0;
+}
+
+.header {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+}
+
+.top-header {
+    background-color: #F2F2F2;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.top-in_header {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    color: grey;
+}
+
+.site {
+    float: left;
+    width: 20%;
+}
+
+.img-g {
+    float: left;
+    margin-top: 2px;
+    margin-right: 3px;
+}
+
+.img-p {
+    float: left;
+    margin-right: 3px;
+}
+
+.top-nav {
+    float: right;
+    width: 80%;
+    text-align: right;
+}
+
+.top-nav_list {
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-nav_link {
+    display: inline-block;
+    padding: 0px 0px 0px 25px;
+}
+
+.top_link-text {
+    text-decoration: none;
+    color: grey;
+}
+
+.bottom-header {
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.botton-in_header {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+}
+
+.bottom-nav {
+    float: right;
+    width: 80%;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.bottom-nav_list {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bottom-nav_link {
+    display: inline-block;
+    padding: 0px 6px;
+}
+
+.img-1 {
+    width: 30px;
+    float: right;
+    margin: -5px
+}
+
+.bottom_link-text {
+    text-decoration: none;
+    font-weight: 500;
+    color: #00095B;
+}
+
+.message {
+    color: white;
+    background-color: #DA7029;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.i {
+    background-color: white;
+    color: #DA7029;
+    padding: 2px 10px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.close {
+    float: right;
+}
+
+@media screen and (max-width:1024px) {
+
+    .message {
+        font-size: 12px;
+    }
+
+    .header {
+        font-size: 11px;
+    }
+
+    .img-g,
+    .img,
+    .img-p {
+        width: 15px;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bottom-nav {
+        width: 100%;
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .top-nav {
+        display: none;
+    }
+
+    .header {
+        font-size: small;
+    }
+
+    .site {
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-g {
+        margin-top: 4px;
+    }
+
+    .bottom-nav_link {
+        display: block;
+        padding: 2px 0px;
+        border-bottom: 1px solid #00095B;
+    }
+
+    .bottom-nav {
+        float: left;
+        text-align: left;
+        width: 100%;
+        position: relative;
+    }
+
+    .img-1 {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .borderno {
+        border: none;
+    }
+
+    .message {
+        font-size: small;
+    }
+}
+.footer{
+    margin-top: 100px;
+}
+.top-footer{
+    padding: 35px;
+    background-color: #F2F2F2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+}
+.top-in-foot{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+.col{
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+.col-list{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+.foot-nav-link{
+    display: block;
+    padding: 5px 0;
+}
+.head{
+    color: #00095B;
+    font-size: larger;
+    font-weight: 600;
+}
+.blank{
+    margin-top: 28px;
+}
+
+
+.mail{
+    margin-top: 15px;
+    color: #00095B;
+}
+.social{
+    margin-top: 10px;
+}
+.span{
+padding:5px;
+}
+.chat{
+    margin-top: 10px;
+}
+.nav-text{
+    text-decoration: none;
+}
+.bottom-footer{
+    padding: 0px;
+    background-color: #00095B;
+    color: white;
+    overflow: hidden;
+}
+.bottom-in-foot{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+.bot-col-1{
+    float: left;
+    width: 85%;
+}
+.row-1{
+    width: 100%;
+    padding: 15px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bot-list{
+    margin: 0;
+    padding: 0%;
+}
+.bot-link{
+    display: inline-block;
+    padding-right: 20px;
+}
+.bot-text{
+    text-decoration: none;
+    color: white;
+}
+.row-2{
+    width: 100%;
+    padding: 0 0 15px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
+}
+.bot-col-2{
+    float: right;
+    width: 15%;
+    text-align: right;
+}
+.upclose{
+    width: 50px;
+    margin-top: 20px;
+}

@@ -42,10 +42,11 @@
     text-align: center;
     overflow: hidden;
 }
-.date{
-    color: #9e9e9e
-        font-weight: bold;
+
+.date {
+    color: #9e9e9e font-weight: bold;
 }
+
 .left {
     float: left;
     width: 30%;
@@ -59,8 +60,25 @@
     box-sizing: border-box;
     text-align: left;
 }
-.imges{
+
+.imges {
     width: 100%;
+}
+
+.more {
+    color: yellow;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.date {
+    font-weight: bold;
+    color: gray;
+}
+
+.para {
+    color: #969696;
+    font-size: 20px;
 }
 
 .row-2 {
@@ -82,7 +100,8 @@
     background-color: #f2f2f2;
     margin: 2px 0;
 }
-.pointer{
+
+.pointer {
     padding: 0px 7px;
     border-radius: 100%;
     background-color: blueviolet;
@@ -90,15 +109,22 @@
     font-weight: bold;
     color: white;
 }
-.row2{
+
+.collect {
+    color: blueviolet;
+}
+
+.row2 {
     width: 100%;
     margin-top: 15px;
 }
-.col-lef{
+
+.col-lef {
     float: left;
     width: 80%;
 }
-.col-rig{
+
+.col-rig {
     float: right;
     width: 20%;
 }

@@ -39,10 +39,12 @@ footer {
 .top-row1 {
     width: 100%;
 }
-.strong{
+
+.strong {
     font-weight: bold;
     font-size: larger;
 }
+
 .top-row2 {
     width: 100%;
     margin-top: 15px;
@@ -52,7 +54,8 @@ footer {
     float: left;
     width: 30%;
 }
-.top-row4{
+
+.top-row4 {
     margin-top: 15px;
 }
 
@@ -61,54 +64,67 @@ footer {
     width: 100%;
     margin: 0 auto;
 }
-.mid-row{
+
+.mid-row {
     padding: 20px 0;
     overflow: hidden;
     font-size: smaller;
 }
-.span{
+
+.span {
     padding: 0 10px;
 }
+
 .botm-in-foot {
     max-width: 1240px;
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
-.col-1{
+
+.col-1 {
     float: left;
     width: 25%;
     border: 1px solid red;
     margin: 15px 10px 0 0
 }
-.ind{
+
+.country {
     float: left;
 }
-.country{
-    float: left;
+
+.ind {
+    vertical-align: middle;
 }
-.up{
+
+.up {
     float: right;
     margin-top: 10px;
 }
-.lef, .rig{
+
+.lef,
+.rig {
     float: left;
     width: 30%;
 }
-.col-2{
+
+.col-2 {
     float: left;
     width: 50%;
     text-align: left;
 }
-.para{
+
+.para {
     font-family: monospace;
 }
-.col-3{
+
+.col-3 {
     float: right;
     width: 24%;
     text-align: left;
     margin-top: 15px;
 }
-.social{
+
+.social {
     padding: 10px;
 }

@@ -1,0 +1,25 @@
+.container-1{
+    width: 400px;
+    height:400px;
+    background-image: linear-gradient(violet 1px, indigo , blue 50px, green, yellow, orange, red);
+}
+.container-2{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(to top right, violet, indigo, blue, green, yellow, orange, red);
+}
+.container-3{
+    width: 400px;
+    height:400px;
+    background-image: repeating-radial-gradient(red, black 20px, rgb(249, 246, 246) 30px);
+}
+.container-4{
+    width: 400px;
+    height: 400px;
+    background-image: repeating-linear-gradient(green, yellow 10%, green 10%);
+}
+.container-5{
+    width:400px;
+    height: 400px;
+    background-image: conic-gradient( from 90deg red 20px, blue 20px)
+}

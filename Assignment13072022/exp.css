@@ -1,0 +1,29 @@
+.inner-header {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.padding {
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-size {
+    font-size: 100px;
+}
+.icon-size:hover{
+    color: red;
+}
+.icon-size:focus{
+    color:aqua ;
+}
+.input:focus{
+    outline: none;  
+}

@@ -26,4 +26,8 @@
 }
 .input:focus{
     outline: none;  
+    border: none;
+}
+.span:nth-child(5){
+    color: blue;
 }

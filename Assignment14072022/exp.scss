@@ -1,0 +1,77 @@
+@import './scss/variable';
+@import './scss/mixin';
+
+.header {
+    padding: $padding20;
+    border: $bord;
+    background-color: $bgcolor;
+}
+
+.inner-header {
+    @include midalign;
+}
+
+.top-header {
+    @include flex;
+}
+
+.bottom-header {
+    .nav-link {
+        @include navlink;
+
+        .nav-text {
+            @include navigation-text;
+        }
+    }
+}
+
+.inner-main {
+    @include midalign;
+    display: flex
+}
+
+.left {
+    @include left;
+
+    .left-heading {
+        @include sectionHeading;
+    }
+
+    .left-para {
+        @include paragraph;
+    }
+}
+
+.right {
+    @include right;
+    display: flex;
+
+    .right-col-1 {
+        @include left;
+        padding: $padding5;
+    }
+
+    .right-col-2 {
+        @include right;
+
+        .right-heading {
+            @include sectionHeading;
+            color: $color;
+        }
+
+        .right-para {
+            background-color: $bgcolor;
+            color:lightyellow;
+            font-family: $font;
+        }
+    }
+}
+
+.footer {
+    @extend .header;
+
+    .inner-footer {
+        @extend .inner-header;
+        text-align: center;
+    }
+}

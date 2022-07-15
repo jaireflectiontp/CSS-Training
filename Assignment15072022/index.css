@@ -1,0 +1,21 @@
+.body{
+    margin: 0;
+    background-color: lavender;
+}
+.inner-main, .header{
+    background-color:white ;
+}
+.logo{
+    font-family: fantasy;
+}
+
+.highlight{
+    padding-top: 20px;
+}
+.link{
+    display: inline-block;
+    padding-right: 45px;
+}
+.msg{
+    color: darkorange;
+}
